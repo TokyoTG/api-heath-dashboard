@@ -22,7 +22,7 @@ function display_return_data($arr)
 function getapis()
 {
 
-    $allusers = scandir('db/');
+    $allusers = scandir('db');
     $num = count($allusers);
     for ($i = 2; $i < $num; $i++) {
         // echo $allusers[$i];
